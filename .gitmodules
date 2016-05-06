@@ -1,0 +1,3 @@
+[submodule "fiware-sth-comet"]
+	path = fiware-sth-comet
+	url = https://github.com/telefonicaid/fiware-sth-comet.git
