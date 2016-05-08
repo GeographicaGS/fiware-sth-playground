@@ -1,6 +1,8 @@
 mongo:
    image: mongo:3.2
    command: --smallfiles --nojournal
+   ports:
+     - "27018:27017" # port opened only for development environment
 orion:
    image: fiware/orion
    links:
