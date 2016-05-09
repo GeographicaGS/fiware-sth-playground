@@ -1,0 +1,1 @@
+curl -X GET "http://localhost:8666/STH/v1/contextEntities/type/entGeoTest/id/entGeoTest:da01/attributes/s?hLimit=3&hOffset=0&dateFrom=2014-02-14T00:00:00.000Z&dateTo=2019-02-14T23:59:59.999Z" -s -S --header "Fiware-Service: orion" --header "Fiware-ServicePath: /"
