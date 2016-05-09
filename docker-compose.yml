@@ -3,7 +3,7 @@ orion:
   links:
     - mongo
     - accumulator
-    - fiware-sth-comet
+    - sthcomet
   ports:
     - "1026:1026"
   command: -dbhost mongo
@@ -17,7 +17,7 @@ accumulator:
   ports:
     - "1028:1028"
   command: ./accumulator-server.py
-fiware-sth-comet:
+sthcomet:
   build: fiware-sth-comet
   ports:
     - "8666:8666"
